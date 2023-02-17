@@ -21,7 +21,7 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.2.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>personaljar</groupId>
 			<artifactId>sikulix</artifactId>
@@ -30,9 +30,16 @@
 			<systemPath>${basedir}\src\test\resources\sikulixapi.jar</systemPath>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
+		<dependency>
+			<groupId>ru.yandex.qatools.ashot</groupId>
+			<artifactId>ashot</artifactId>
+			<version>1.5.4</version>
+		</dependency>
+
 
 	</dependencies>
 
 
-	
+
 </project>
